@@ -1,31 +1,4 @@
 # Aterna - Landscaping & Gardening Frontend Project
 
-A modern, responsive multi-page frontend website built for a landscaping, gardening, and outdoor design service. Developed as part of the Gita-Mziuri frontend development project.
-
 🔗 **Live Demo:** [View Website Live](https://georgetsn29.github.io/Gita-Mziuri-frontend-project/index.html)
 
----
-
-## 🚀 Features
-
-- **Multi-Page Layout:** Includes dedicated pages for Home, About Us, Frequently Asked Questions (FAQ), Blog Articles, and Contact.
-- **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens.
-- **Interactive Elements:** Features clean navigation menus, sliders, product showcases, and dynamic filtering sections.
-- **Modern Aesthetic:** Styled with custom layouts focused on a clean, nature-inspired professional look.
-
----
-
-## 📂 Project Structure
-
-```text
-Gita-Mziuri-frontend-project/
-│
-├── index.html          # Homepage
-├── pages/
-│   ├── aboutUs.html    # About Us page
-│   ├── contact.html    # Contact page
-│   ├── faq.html        # FAQ page
-│   └── blogarticle.html# Blog article page
-│
-├── styles/             # CSS stylesheets for components and pages
-└── img/                # Images, logos, and graphic assets
