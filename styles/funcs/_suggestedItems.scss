@@ -28,10 +28,12 @@
             background-color: $subtitle-background;
             color: $white;
             font-family: $fontrubik;
-            transition: background-color 0.3s;
+            transition: all 0.3s;
 
             &:hover {
                 background-color: $secondary-color;
+                transform: translate(-15px, -15px);
+                box-shadow: 8px 8px 0px $whyUs-title-color;
             }
         }
 

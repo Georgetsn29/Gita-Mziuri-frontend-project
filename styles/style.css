@@ -817,11 +817,13 @@
   background-color: #1c4645;
   color: #ffffff;
   font-family: Rubik;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 #suggestedItems .suggested-container .suggested__btn:hover {
   background-color: #b07e50;
+  transform: translate(-15px, -15px);
+  box-shadow: 8px 8px 0px #ffb40a;
 }
 
 #suggestedItems .suggested-container .suggested__btn-first {
