@@ -457,7 +457,7 @@
 }
 @media (min-width: 370px) and (max-width: 576px) {
   #hero {
-    height: 50vh;
+    height: 60vh;
   }
   .carousel-item__img {
     width: 100%;
