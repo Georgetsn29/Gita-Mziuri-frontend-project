@@ -455,7 +455,7 @@
     display: none;
   }
 }
-@media (min-width: 370px) and (max-width: 576px) {
+@media (max-width: 576px) {
   #hero {
     height: 50vh;
   }
@@ -469,13 +469,13 @@
   }
   .hero-main {
     position: absolute;
-    top: 30%;
+    top: 25%;
     bottom: unset;
-    left: 10%;
+    left: 0;
     right: unset;
   }
   .hero-main .hero-card {
-    width: 90%;
+    width: 100%;
     padding: 10px 14px;
   }
   .hero-main .hero-card .card-title {
@@ -1468,7 +1468,7 @@
     padding-inline: 60px;
   }
 }
-@media (min-width: 400px) and (max-width: 575px) {
+@media (max-width: 575px) {
   #feedback .feedback-content {
     padding: 40px;
   }

@@ -140,7 +140,7 @@
 
 // }
 
-@media (min-width: 370px) and (max-width: 576px) {
+@media (max-width: 576px) {
   #hero {
     height: 50vh;
   }
@@ -154,11 +154,11 @@
 
   .hero-main {
   
-  @include position(absolute, 30%, unset, 10%, unset);
+  @include position(absolute, 25%, unset, 0, unset);
 
   .hero-card {
 
-    width: 90%;
+    width: 100%;
     padding: 10px 14px;
 
       .card-title {
