@@ -1484,6 +1484,7 @@
   }
   #feedback .feedback-media .feedback-media__item .feedback-media__card .feedback-media__body .feedback-media__star {
     width: 70%;
+    font-size: 25px;
   }
   #feedback .feedback-media .feedback-media__item .feedback-media__card .feedback-media-img-wrapper {
     min-width: 80px;
