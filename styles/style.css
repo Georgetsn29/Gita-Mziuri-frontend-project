@@ -455,7 +455,7 @@
     display: none;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 370px) and (max-width: 576px) {
   #hero {
     height: 50vh;
   }
@@ -469,25 +469,26 @@
   }
   .hero-main {
     position: absolute;
-    top: 25%;
+    top: 30%;
     bottom: unset;
-    left: 0;
+    left: 10%;
     right: unset;
   }
   .hero-main .hero-card {
-    width: 100%;
+    width: 90%;
     padding: 10px 14px;
   }
   .hero-main .hero-card .card-title {
     font-size: 20px;
   }
   .hero-main .hero-card .card-text {
-    font-size: 12px;
+    font-size: 10px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 400;
     font-family: Rubik;
     letter-spacing: 1px;
     line-height: unset;
+    margin-bottom: 0;
   }
   .hero-main .hero-card .hero__btn {
     color: #ffffff;
