@@ -3120,4 +3120,14 @@ body {
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #B37A51;
+  color: #1A1A1A;
+}
+
+::selection {
+  background-color: #B37A51;
+  color: #1A1A1A;
 }/*# sourceMappingURL=style.css.map */
