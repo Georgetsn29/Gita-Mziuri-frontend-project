@@ -3,7 +3,6 @@
 🔗 **Live Demo:** [View Website Live](https://georgetsn29.github.io/Gita-Mziuri-frontend-project/index.html)
 
 # Aterna - Landscaping & Gardening Website
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Georgetsn29/Gita-Mziuri-frontend-project)
 
 ### [View the Live Demo](https://georgetsn29.github.io/Gita-Mziuri-frontend-project/)
 
