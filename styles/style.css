@@ -3106,6 +3106,49 @@ footer .footer-container .footer__item .footer-newsletter-social .footer-newslet
     width: 100%;
   }
 }
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  background-color: #1c4645;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.8s ease-in-out;
+  z-index: 99999;
+}
+
+.coverOff {
+  transform: translateY(-100%);
+}
+
+.cover-title {
+  color: bisque;
+  font-family: Rubik;
+  font-size: 300px;
+  letter-spacing: 10px;
+}
+
+/* Staggered animation for each letter */
+.cover-title span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+  animation: fadedown 1s ease forwards;
+}
+
+@keyframes fadedown {
+  from {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 html, body {
   overflow-x: hidden;
 }
