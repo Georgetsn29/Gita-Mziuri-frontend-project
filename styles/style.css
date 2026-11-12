@@ -41,8 +41,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: unset;
-  width: 55%;
+  width: 42%;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .nav-link {
@@ -3120,6 +3121,11 @@ footer .footer-container .footer__item .footer-newsletter-social .footer-newslet
   z-index: 99999;
 }
 
+@media (width < 1200px) {
+  .cover {
+    display: none;
+  }
+}
 .coverOff {
   transform: translateY(-100%);
 }
