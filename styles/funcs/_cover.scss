@@ -9,7 +9,7 @@
     height: 100dvh;
     background: linear-gradient(
         150deg in oklch,
-        #0d2d2c 0%,
+        #0d2d2c 30%,
         #9c724a 100%
     );
     display: flex;
@@ -26,6 +26,7 @@
 .cover-title {
     color: $white;
     font-family: $fontrubik;
+    text-shadow: 15px 15px 10px #0b211f;
     font-size: 300px;
     letter-spacing: 10px;
     // font-weight: 500;
