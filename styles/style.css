@@ -3112,7 +3112,7 @@ footer .footer-container .footer__item .footer-newsletter-social .footer-newslet
   left: 0;
   width: 100%;
   height: 100dvh;
-  background-color: #1c4645;
+  background: linear-gradient(150deg in oklch, #0d2d2c 0%, #9c724a 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3125,7 +3125,7 @@ footer .footer-container .footer__item .footer-newsletter-social .footer-newslet
 }
 
 .cover-title {
-  color: bisque;
+  color: #ffffff;
   font-family: Rubik;
   font-size: 300px;
   letter-spacing: 10px;
