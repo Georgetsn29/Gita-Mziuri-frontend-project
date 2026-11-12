@@ -31,8 +31,9 @@
 
 .navbar-nav {
     @include flex(row, space-between, unset);
-    width: 55%;
+    width: 42%;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .nav-link {
